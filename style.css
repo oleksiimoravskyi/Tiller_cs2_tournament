@@ -141,14 +141,23 @@ background-color: var(--blue);
 transform: translateY(-50%);
 }
 
+.round.finals .matchup::before{
+content: '';
+position: absolute;
+top: 50%;
+left: -90.8%; 
+width: 90.8%;
+height: 2px;
+background-color: var(--blue);
+transform: translateY(-50%);
+}
 
-.round.finals .matchup::before,
 .round.winner .matchup::before {
 content: '';
 position: absolute;
 top: 50%;
-left: -90%; 
-width: 90%;
+left: -92%; 
+width: 92%;
 height: 2px;
 background-color: var(--blue);
 transform: translateY(-50%);
