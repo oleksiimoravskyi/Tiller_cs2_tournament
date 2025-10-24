@@ -1,3 +1,3 @@
 setInterval(() =>{
     location.reload();
-},18000); 
+},9000); 
